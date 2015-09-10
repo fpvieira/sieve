@@ -1,7 +1,7 @@
 import asyncio
 import logging
 
-import crawler
+from . import crawler
 
 
 logging.basicConfig(level=logging.DEBUG)

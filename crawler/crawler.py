@@ -17,8 +17,7 @@ Page = namedtuple("Page", "name title url")
 class Crawler:
     def __init__(self, seed,
                  loop=None,
-                 concurrency=10,
-                 patterns=[], exclude=[]):
+                 concurrency=10):
         self.seed = seed
         self.loop = loop or asyncio.get_event_loop()
         self.concurrency = concurrency

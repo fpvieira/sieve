@@ -11,15 +11,9 @@ Python 3.4.x ou maior.
 Para instalar as dependencias:::
 
     $ pip install -r requirements.txt
-
-
-Use
-===
-
-Execute
-
-::
-
     $ python crawler
+    
+Ou com o zip:::
 
-
+    $ pip install sieve.zip
+    $ python -m "crawler"

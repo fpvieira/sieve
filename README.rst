@@ -13,7 +13,7 @@ Para instalar as dependencias:::
     $ pip install -r requirements.txt
     $ python crawler
     
-Ou com o zip:::
-
-    $ pip install sieve.zip
+Ou baixando zip na area de releases do projeto :::
+    $ curl -OL https://github.com/pauloalem/sieve/archive/v0.1.zip
+    $ pip install v0.1.zip
     $ python -m "crawler"
